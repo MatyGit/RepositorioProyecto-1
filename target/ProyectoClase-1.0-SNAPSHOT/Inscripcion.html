@@ -11,7 +11,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
         <link rel="stylesheet" href="./css/bootstrap.min.css">
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        
+                <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">CFL N°414 La Matanza</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,43 +35,24 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
           <a class="nav-link" href="http://localhost:8080/ProyectoClase/Inicio1.html">Inscripcion</a>
           
         </li>
-
+        
+        
       </ul>
         
       
     </div>
   </div>
 </nav>
-        <-Imagenes de cursos->
-                <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h3 class="gallery-title">CURSOS</h3>
-                    <div class="row">
-                        <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="example-gallery" class="col-lg-3 col-md-4 col-6 my-3">
-                            <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid card">
-                            <p>HOLA</p>
-                        </a>
-                        <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="example-gallery" class="col-lg-3 col-md-4 col-6 my-3">
-                            <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid card">
-                        </a>
-                        <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="example-gallery" class="col-lg-3 col-md-4 col-6 my-3">
-                            <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid card">
-                        </a>
-                        <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="example-gallery" class="col-lg-3 col-md-4 col-6 my-3">
-                            <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid card">
-                        </a>
-                        <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox" data-gallery="example-gallery" class="col-lg-3 col-md-4 col-6 my-3">
-                            <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid card">
-                        </a>
-                        <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" data-gallery="example-gallery" class="col-lg-3 col-md-4 col-6 my-3">
-                            <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid card">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <button type="button" class="btn btn-primary">Primary</button>
+        <form method="get" action="PaginaCodigos.jsp">
+        Nombre<input type = "text" name = "nombre" /></br>
+        Apellido <input type = "text" name = "apellido" /></br>
+        DNI <input type = "text" name = "dni" /></br>
+        Tel <input type = "text" name = "telefono" /></br>
+        Direccion <input type = "text" name = "direccion" /></br>
+        EMAIL <input type = "text" name = "email" /></br>
+        Nacionalidad <input type = "text" name = "nacionalidad" /></br>
+        Localidad <input type = "text" name = "localidad" /></br>
+        <input type="submit" value="Aceptar">
+        </form>
     </body>
 </html>
-
