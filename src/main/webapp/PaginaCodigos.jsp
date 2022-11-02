@@ -32,7 +32,7 @@
             + ")";
             }
             guardarDatos.execute(insercion);
-                    conexion.close();
+            conexion.close();
                     
         %>
     </body>

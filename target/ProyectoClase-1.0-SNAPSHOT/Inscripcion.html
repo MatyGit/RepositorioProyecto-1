@@ -21,18 +21,18 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
     <div class="collapse navbar-collapse" id="navbarColor01">
       <ul class="navbar-nav me-auto">
         <li class="nav-item">
-          <a class="nav-link active" href="http://localhost:8080/ProyectoClase/Inicio1.html">Inicio
+          <a class="nav-link active" href="Inicio1.html">Inicio
             <span class="visually-hidden">(current)</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="http://localhost:8080/ProyectoClase/Institucion.html">Institucion</a>
+          <a class="nav-link" href="Institucion.html">Institucion</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="http://localhost:8080/ProyectoClase/Ubicacion.html">Ubicacion</a>
+          <a class="nav-link" href="Ubicacion.html">Ubicacion</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="http://localhost:8080/ProyectoClase/Inicio1.html">Inscripcion</a>
+          <a class="nav-link" href="Inicio1.html">Inscripcion</a>
           
         </li>
         
@@ -43,7 +43,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
     </div>
   </div>
 </nav>
-        <form method="get" action="PaginaCodigos.jsp">
+        <select name="cursos" id="curs" form="alta"></select>
+        <form method="post" action="PaginaCodigos.jsp">
         Nombre </br>
         <input type = "text" name = "nombre" /></br>
         </br>
@@ -82,5 +83,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
         
         <input type="submit" value="Aceptar">
         </form>
+        
     </body>
 </html>
